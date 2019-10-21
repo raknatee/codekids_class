@@ -84,18 +84,36 @@ h1 {
     background-color: #184163;
 }
 
+
 .htmlC {
+    color: whitesmoke;
+    background-color: #003d59;
+}
+
+.htmlC:hover {
+    background-color: #136084;
+}
+
+.htmlC:active {
+    background-color: #002435;
+}
+
+.microbitC {
     color: whitesmoke;
     background-color: #3b3b3b;
 }
 
-.htmlC:hover {
+.microbitC:hover {
     background-color: #626262;
 }
 
-.htmlC:active {
+.microbitC:active {
     background-color: #262626;
 }
+
+
+
+
 
 .ttc {
     color: whitesmoke;
