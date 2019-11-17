@@ -101,5 +101,5 @@ EXPOSE 80
 STOPSIGNAL SIGTERM
 
 COPY ./nginx.conf /etc/nginx/nginx.conf 
-COPY ./ /app
+COPY ./www /app/www
 CMD ["nginx", "-g", "daemon off;"]
